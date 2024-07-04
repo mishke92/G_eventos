@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'Eventos.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bdEventos',
-        'USER': 'root',
-        'PASSWORD': '12345',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'bd_eventos',
+        'USER': 'postgres',
+        'PASSWORD': 'Admin',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '5432',
     }
 }
 
